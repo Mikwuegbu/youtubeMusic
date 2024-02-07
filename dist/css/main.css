@@ -1,1 +1,100 @@
-/*# sourceMappingURL=main.css.map */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #151515;
+  color: #fff;
+}
+
+html,
+body,
+ul,
+ol,
+li,
+form,
+fieldset,
+legend {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
+fieldset,
+img {
+  border: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.nav-bar {
+  display: flex;
+  padding: 10px;
+  background-color: rgba(25, 25, 25, 0.9411764706);
+  border-bottom: 1px solid rgba(95, 92, 92, 0.2901960784);
+}
+
+.logo-text {
+  font-size: larger;
+  font-weight: 600;
+}
+
+.search-container {
+  position: relative;
+  display: inline-block;
+}
+
+.search-input {
+  padding: 8px 30px 8px 10px;
+  border: 1px solid rgba(95, 92, 92, 0.7294117647);
+  background: rgba(47, 47, 47, 0.6431372549);
+  border-radius: 10px;
+  font-size: 16px;
+  color: white;
+  width: 400px;
+  height: 25px;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.btn-signIn {
+  margin-left: 25px;
+  padding: 8px 16px 8px 16px;
+  background: white;
+  color: black;
+  border-radius: 15px;
+  font-size: small;
+  font-weight: 600;
+}
+
+.tab-btn__btn {
+  margin-left: 4px;
+  margin-right: 4px;
+  padding: 10px 16px 10px 16px;
+  background: rgba(47, 47, 47, 0.5960784314);
+  color: white;
+  border-radius: 10px;
+  font-size: small;
+  font-weight: 500;
+}
+.tab-btn__btn:hover {
+  background: #3e3e3e;
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */

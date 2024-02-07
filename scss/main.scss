@@ -1,0 +1,73 @@
+@import './reset';
+@import './variables';
+@import './mixins';
+
+.nav-bar {
+	display: flex;
+	padding: 10px;
+	background-color: #191919f0;
+	border-bottom: 1px solid #5f5c5c4a;
+}
+
+.logo-text {
+	font-size: larger;
+	font-weight: 600;
+}
+
+.search-container {
+	position: relative;
+	display: inline-block;
+}
+
+.search-input {
+	padding: 8px 30px 8px 10px;
+	border: 1px solid #5f5c5cba;
+	background: #2f2f2fa4;
+	border-radius: 10px;
+	font-size: 16px;
+	color: white;
+	width: 400px;
+	height: 25px;
+}
+
+.search-icon {
+	position: absolute;
+	top: 50%;
+	left: 15px;
+	transform: translateY(-50%);
+	background-color: transparent;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+}
+
+.btn-signIn {
+	margin-left: 25px;
+	padding: 8px 16px 8px 16px;
+	background: white;
+	color: black;
+	border-radius: 15px;
+	font-size: small;
+	font-weight: 600;
+}
+
+.tab-btn__btn {
+	margin-left: 4px;
+	margin-right: 4px;
+	padding: 10px 16px 10px 16px;
+	background: #2f2f2f98;
+	color: white;
+	border-radius: 10px;
+	font-size: small;
+	font-weight: 500;
+
+	&:hover {
+		background: #3e3e3e;
+		cursor: pointer;
+	}
+}
+
+// .search-button img {
+// 	width: 20px; /* Example width */
+// 	height: auto; /* Maintain aspect ratio */
+// }
