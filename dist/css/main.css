@@ -47,6 +47,19 @@ li {
   font-weight: 600;
 }
 
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.side-bar {
+  width: 250px;
+}
+
 .search-container {
   position: relative;
   display: inline-block;
@@ -97,4 +110,11 @@ li {
 .tab-btn__btn:hover {
   background: #3e3e3e;
   cursor: pointer;
+}
+
+.column-container {
+  display: flex;
+}
+.column-container .column {
+  flex: 1;
 }/*# sourceMappingURL=main.css.map */
