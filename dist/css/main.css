@@ -51,8 +51,30 @@ li {
   display: flex;
   justify-content: center;
 }
+.main-container .main-content {
+  flex: 1;
+  margin-top: 30px;
+}
+.main-container .main-content__items {
+  margin-top: 50px;
+  margin-left: 4px;
+}
+.main-container .radio {
+  margin-bottom: 4px;
+  color: #999797;
+}
+.main-container .quickPosts {
+  margin-top: 0px;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
 
-.main-content {
+.column-container {
+  display: flex;
+  margin-top: 10px;
+}
+.column-container .column {
   flex: 1;
 }
 
@@ -110,11 +132,4 @@ li {
 .tab-btn__btn:hover {
   background: #3e3e3e;
   cursor: pointer;
-}
-
-.column-container {
-  display: flex;
-}
-.column-container .column {
-  flex: 1;
 }/*# sourceMappingURL=main.css.map */
