@@ -52,8 +52,10 @@ li {
   justify-content: center;
 }
 .main-container .main-content {
-  flex: 1;
+  flex: 5;
   margin-top: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 .main-container .main-content__items {
   margin-top: 50px;
@@ -67,7 +69,11 @@ li {
   margin-top: 0px;
   font-size: 30px;
   font-weight: 600;
-  margin-bottom: 0px;
+  margin-bottom: 30px;
+}
+.main-container .side-bar {
+  width: 280px;
+  flex: 1;
 }
 
 .column-container {
@@ -77,9 +83,23 @@ li {
 .column-container .column {
   flex: 1;
 }
-
-.side-bar {
-  width: 250px;
+.column-container .column_child {
+  display: flex;
+  cursor: pointer;
+}
+.column-container .img-file {
+  height: 55px;
+  width: 55px;
+}
+.column-container .title-details {
+  font-size: medium;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.column-container .details {
+  font-size: medium;
+  color: #999797;
+  margin-bottom: 25px;
 }
 
 .search-container {
@@ -132,4 +152,69 @@ li {
 .tab-btn__btn:hover {
   background: #3e3e3e;
   cursor: pointer;
+}
+
+.recommended-container {
+  margin-top: 80px;
+}
+.recommended-container .recommended {
+  margin-top: 0px;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.recommended-container .recommended-tiles {
+  display: flex;
+  margin-right: 25px;
+  margin-bottom: 120px;
+}
+.recommended-container .recommended-tiles_col {
+  flex: 1;
+}
+.recommended-container .recommended-tiles__heading {
+  font-size: medium;
+  width: 280px;
+  margin-bottom: 6px;
+}
+.recommended-container img {
+  width: 280px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.recommended-container p {
+  font-size: medium;
+  color: #999797;
+}
+
+.circle-container {
+  display: flex;
+  margin-bottom: 280px;
+}
+.circle-container .circle-container_profile {
+  position: relative;
+}
+.circle-container img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  position: absolute;
+}
+.circle-container img:nth-child(1) {
+  left: 100px;
+}
+.circle-container img:nth-child(2) {
+  left: 200px;
+}
+.circle-container img:nth-child(3) {
+  left: 300px;
+}
+.circle-container img:nth-child(4) {
+  left: 400px;
+}
+.circle-container img:nth-child(5) {
+  left: 500px;
+}
+.circle-container .circle-container__side {
+  position: absolute;
+  left: 1000px;
 }/*# sourceMappingURL=main.css.map */
