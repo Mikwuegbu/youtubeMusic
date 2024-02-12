@@ -71,9 +71,20 @@ li {
   font-weight: 600;
   margin-bottom: 30px;
 }
-.main-container .side-bar {
+
+.side-bar {
   width: 280px;
   flex: 1;
+}
+.side-bar li {
+  font-size: medium;
+  font-weight: 500;
+}
+.side-bar i {
+  padding: 30px 25px 30px 25px;
+}
+.side-bar hr {
+  margin-top: 25px;
 }
 
 .column-container {

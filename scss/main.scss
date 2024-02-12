@@ -41,10 +41,23 @@
 		font-weight: 600;
 		margin-bottom: 30px;
 	}
+}
 
-	.side-bar {
-		width: 280px;
-		flex: 1;
+.side-bar {
+	width: 280px;
+	flex: 1;
+
+	li {
+		font-size: medium;
+		font-weight: 500;
+	}
+
+	i {
+		padding: 30px 25px 30px 25px;
+	}
+
+	hr {
+		margin-top: 25px;
 	}
 }
 
